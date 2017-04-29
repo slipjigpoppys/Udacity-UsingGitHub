@@ -1,0 +1,47 @@
+How did viewing a diff between two Versions of a file help you see the bug that
+was introduced?
+
+    It narrowed down the options to choose from.
+    It took the task of comparing thousands of lines to only a handful.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Reduce time spent looking for bugs.
+    Easily identify the changes that were made on a particular day or task.
+    See who has changed what and when if working with other people.
+    Save different branches to develop side project or offshoots without
+    	compromising the main project.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros
+    	Can decide and remember (at least in the short term) when you saved.
+    	You can ensure that each commit can compile or is at least closet to it.
+    	Each commit will have a logical change with a comment attached.
+	Cons
+		User error -  can forget to commit in a reasonable time frame
+		Potential loss of data if there is a system error (e.g. crash)
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Many programming languages use files to interrelate to each other (e.g. Matlab
+    	Functions)
+	If a variable is changed in one file it likely needs to be changed in all
+		related files too.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will show all the commits that have been made in the repository. Using --stat will show lines htat were added or removed. git diff will show the specific line differences between two individual files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You would always be able to get back to a version that worked without the risk of forever trying to track down what was changed in a huge program.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Pomodoro gizmo program.
