@@ -8,24 +8,33 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    For the same reason you would manually commit changes: you want to ensure
+    that the integrity of each commit is solid
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    clones copy a repository, branches split off a new section of a repository
+    that will not affect the other branches, and a fork is a clone of a
+    repository from another user that has been cloned on GitHub. The clones and 
+    branches are for your own use while a fork takes someone else's code 
+    while maintaining the branched link to their code base.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If you are offline you can still compare your files to the remote files
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Save files to a secondary folder for review before saving to the master file
+    and logging the old file for an archive. Almost nonoe of this would be easier
+    than using Git as far as I can see
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    If you are going to be merging it back into a collaborative project. Then 
+    other collaboators can see what changes have been made in that branch before it
+    being apporved to merge with the main line.
